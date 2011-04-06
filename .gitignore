@@ -5,3 +5,4 @@ tmp/
 config/database.yml
 nbproject/
 nbproject/*
+github_key_passphrase
