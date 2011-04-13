@@ -12,13 +12,7 @@
 
 ActiveRecord::Schema.define(:version => 20110408041154) do
 
-  create_table "sessions", :force => true do |t|
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
   create_table "users", :force => true do |t|
-    t.string   "username"
     t.string   "email"
     t.string   "crypted_password"
     t.string   "password_salt"
